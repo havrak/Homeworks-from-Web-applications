@@ -9,8 +9,8 @@ function welcomeMessage() {
   } else if (hours < 18) {
     return `Guten Nachmittag!`;
   } else if (hours < 21) {
-    return `Gute Abend!`;
+    return `Guten Abend!`;
   }
-  return `Guten Nacht!`;
+  return `Gute Nacht!`;
 }
 export default welcomeMessage;

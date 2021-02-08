@@ -2,10 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
+
     <footer>
       <p>
         &copy; {new Date().getFullYear()}{" "}
-        <a href="mailto:vaclav.strnad@gyarab.cz">Václav Strnad</a>
+        <a href="mailto:krystof.havranek@student.gyarab.cz">Havránek Kryštof</a>
       </p>
     </footer>
   );

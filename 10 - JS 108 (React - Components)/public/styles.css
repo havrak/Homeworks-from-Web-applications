@@ -1,0 +1,100 @@
+body {
+  background: #1f1f1f;
+  color: #ffffd7;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.contactCard {
+  float: left;
+  padding: 24px;
+  margin: 10px;
+  width: 400px;
+  border: 5px solid red;
+  border-radius: 5%;
+  background-image: url("https://schenk.co/wp-content/uploads/2018/06/design-panel-deco-line-dm-cement-dark-texture.jpg");
+}
+footer {
+  background: #262626;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  margin-top: 1px;
+  bottom: 0;
+  float: initial;
+}
+footer > p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #ffffd7;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+header {
+  display: inline-block;
+  font-size: 72px;
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #8b00ff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+
+  -webkit-animation: rainbowanim 10s ease infinite;
+  -moz-animation: rainbowanim 10s ease infinite;
+  animation: rainbowanim 10s ease infinite;
+}
+
+@-webkit-keyframes rainbowanim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes rainbowanim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes rainbowanim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

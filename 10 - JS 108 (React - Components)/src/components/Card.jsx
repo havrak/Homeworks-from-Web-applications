@@ -1,13 +1,13 @@
 import React from "react";
 
 function Card(props) {
-  console.log(props);
   return (
-    <div>
-      <h2>{props.name}</h2>
-      <img src={props.img} alt={props.name} />
-      <p>E-mail: {props.email}</p>
-      <p>Telefon: {props.tel}</p>
+    <div class="contactCard">
+      <h2>{props.src.name}</h2>
+      <img src={props.src.img} alt={props.src.name} width="200px" />
+			<hr />
+			Email: <b><a href={"mailto:" + props.src.email}>{props.src.email}</a> </b>
+      <p>Telefon: <b>{props.src.tel} </b> </p>
     </div>
   );
 }
