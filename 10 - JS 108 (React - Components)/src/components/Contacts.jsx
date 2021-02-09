@@ -13,8 +13,8 @@ function loadContacts(){
 function Contacts() {
   return (
     <div>
-      <h1>Kontakty</h1>
-			{loadContacts()}
+      <h1>Kontakten</h1>
+				{loadContacts()}
     </div>
   );
 }
