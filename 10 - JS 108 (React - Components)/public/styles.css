@@ -20,12 +20,15 @@ img {
   border-radius: 5%;
   background-image: url("https://schenk.co/wp-content/uploads/2018/06/design-panel-deco-line-dm-cement-dark-texture.jpg");
 }
+
+.contactArray {
+  margin-bottom: 80px;
+}
 footer {
   background: #262626;
   height: 50px;
   width: 100%;
   position: fixed;
-  margin-top: 1px;
   bottom: 0;
   float: initial;
 }

@@ -12,7 +12,7 @@ function loadContacts(){
 
 function Contacts() {
   return (
-    <div>
+    <div class="contactArray">
       <h1>Kontakten</h1>
 				{loadContacts()}
     </div>
